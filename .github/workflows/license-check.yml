@@ -1,0 +1,15 @@
+name: License Compliance Check
+
+on: [push, pull_request]
+
+jobs:
+  license-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Check license files exist
+      run: |
+        test -f LICENSE-APACHE || exit 1
+        test -f LICENSE-MIT || exit 1
+        test -f LICENSE || exit 1
+        echo "✅ All license files present"
