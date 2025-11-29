@@ -16,7 +16,7 @@
 [![Repo Size](https://img.shields.io/github/repo-size/tlcagford/Primordial-Photon-Dark-Photon-Entanglement.svg)](#)
 
 [updated_readme.md](https://github.com/user-attachments/files/23573346/updated_readme.md)
-# Dark-Photon-Conversion-and-Vacuum-Gradient-Thrust
+# Stellaris QED Engine
 
 
 ---
