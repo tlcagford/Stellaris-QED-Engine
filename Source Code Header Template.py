@@ -1,11 +1,10 @@
 """
 STELLARIS QED ENGINE - Quantum Vacuum Engineering
-Copyright (c) 2024 Tony Eugene Ford (tlcagford@gmail.com)
+Copyright (c) 2025 Tony Eugene Ford
 
-This file is part of the STELLARIS QED ENGINE project.
+Dual-Licensed:
+- ACADEMIC_LICENSE: Free for non-commercial use
+- COMMERCIAL_LICENSE: Required for commercial use
 
-This project is dual-licensed under both the Apache License, Version 2.0 
-and the MIT License. You may choose either license at your option.
-
-See LICENSE-APACHE and LICENSE-MIT for details.
+Contact: tlcagford@gmail.com for commercial licensing.
 """
