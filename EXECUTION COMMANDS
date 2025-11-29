@@ -1,0 +1,9 @@
+# 1. Run the dual license setup
+python scripts/setup_dual_license.py
+
+# 2. Update your README.md with the licensing section shown above
+
+# 3. Commit the changes
+git add LICENSE ACADEMIC_LICENSE COMMERCIAL_LICENSE README.md
+git commit -m "feat: Add dual license model (Commercial + Academic)"
+git push origin main
