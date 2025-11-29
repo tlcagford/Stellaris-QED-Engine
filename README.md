@@ -1,11 +1,6 @@
-# STELLARIS QED ENGINE
-
-**Author**: Tony Eugene Ford  
-**Contact**: tlcagford@gmail.com  
-**License**: Dual Licensed under Apache 2.0 AND MIT - choose either
+![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)r
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE-APACHE)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
 )](LICENSE)
@@ -24,26 +19,28 @@
 ## 📝 Licensing
 This project uses a **Dual-License model**:
 
-- **Commercial License**: Required for for-profit, enterprise, or corporate use.
-- **Open Academic & Personal License**: Free for academic research, public study, and personal exploration.
+## 📝 Licensing
 
-See the `LICENSE` file for details.
+This project uses a **Dual-License model**:
 
-Badge:
-```
+- **Commercial License**: Required for for-profit, enterprise, or corporate use
+- **Open Academic & Personal License**: Free for academic research, public study, and personal exploration
+
+### 🎓 Academic & Personal Use
+**FREE** for:
+- University research
+- Academic publications  
+- Student projects
+- Personal experimentation
+- Open source derivatives
+
+### 💼 Commercial Use  
+**REQUIRES LICENSE** for:
+- Enterprise applications
+- Commercial products
+- Proprietary derivatives
+- For-profit services
+
+**Contact**: tlcagford@gmail.com for commercial licensing.
+
 ![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
-```
-
----
-
-## 🤝 Contributing
-Pull requests are welcome.
-For major changes, open an issue to discuss your proposal.
-
-A Contributor License Agreement (CLA) may be required for future releases.
-
----
-
-## 📫 Contact
-Author: **Tony E. Ford**  
-Independent Researcher / Astrophysics & Qu
