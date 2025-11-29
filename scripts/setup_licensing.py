@@ -1,84 +1,108 @@
 #!/usr/bin/env python3
 """
-Dual License Setup Script for Tony Eugene Ford's repositories
+Setup Dual License for STELLARIS QED ENGINE
+Commercial + Academic licensing model
 """
 
-import os
-from datetime import datetime
+def create_dual_license():
+    main_license = """# DUAL LICENSE - STELLARIS QED ENGINE
+Copyright (c) 2024 Tony Eugene Ford (tlcagford@gmail.com)
 
-def create_license_files():
-    """Create all license files with proper attribution"""
+This project is available under two distinct licenses:
+
+## OPTION 1: COMMERCIAL LICENSE
+For commercial, enterprise, or for-profit use.
+
+Required for:
+- Commercial applications
+- Enterprise use  
+- For-profit integration
+- Proprietary derivatives
+
+Contact: tlcagford@gmail.com for commercial licensing terms.
+
+## OPTION 2: OPEN ACADEMIC & PERSONAL LICENSE
+For academic research, personal projects, and non-commercial use.
+
+Permissions:
+- ✅ Academic research and publications
+- ✅ Personal projects and experimentation  
+- ✅ Non-commercial educational use
+- ✅ Open source derivatives (must remain open)
+
+Restrictions:
+- ❌ No commercial use without commercial license
+- ❌ No proprietary derivatives without commercial license
+
+## SUMMARY:
+- Academic/Personal: FREE (with attribution)
+- Commercial: Requires paid license
+
+See individual license files for complete terms."""
     
-    # Read the license templates we created above
-    apache_license = """Copyright {year} Tony Eugene Ford
+    academic_license = """OPEN ACADEMIC & PERSONAL LICENSE
+Version 1.0, January 2024
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Copyright (c) 2024 Tony Eugene Ford (tlcagford@gmail.com)
 
-    http://www.apache.org/licenses/LICENSE-2.0
+PERMITTED USES:
+1. Academic research at educational institutions
+2. Publication in academic journals and conferences
+3. Personal projects and experimentation
+4. Classroom and educational use
+5. Open source derivatives (must remain open source)
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.""".format(year=datetime.now().year)
+CONDITIONS:
+1. Attribution must be given in publications and derivatives
+2. Derivatives must remain under this license or compatible open source license
+3. No commercial use without separate commercial license
 
-    mit_license = """Copyright (c) {year} Tony Eugene Ford
+PROHIBITED:
+1. Commercial, enterprise, or for-profit use
+2. Integration into proprietary software
+3. Use in products or services sold for profit
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+For commercial licensing, contact: tlcagford@gmail.com
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.""".format(year=datetime.now().year)
-
-    dual_notice = """STELLARIS QED ENGINE
-Copyright (c) {year} Tony Eugene Ford (tlcagford@gmail.com)
-
-This project is dual-licensed under both:
-
-1. Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-2. MIT License (https://opensource.org/licenses/MIT)
-
-You may choose to use, modify, and distribute this software under either license.
-
-The Apache License provides additional patent protection and explicit 
-contributor license agreements, while the MIT License offers simplicity.
-
-For commercial applications, you may prefer the Apache 2.0 license for its
-explicit patent protections. For academic or personal use, the MIT license
-offers maximum flexibility.
-
-See individual license files for complete terms:
-- LICENSE-APACHE (Apache 2.0)
-- LICENSE-MIT (MIT)""".format(year=datetime.now().year)
-
-    # Write files
-    with open('LICENSE-APACHE', 'w') as f:
-        f.write(apache_license)
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."""
     
-    with open('LICENSE-MIT', 'w') as f:
-        f.write(mit_license)
-        
+    commercial_placeholder = """COMMERCIAL LICENSE - STELLARIS QED ENGINE
+
+Commercial licensing is required for:
+- Enterprise use
+- Commercial applications
+- For-profit integration  
+- Proprietary derivatives
+
+CONTACT: Tony Eugene Ford
+EMAIL: tlcagford@gmail.com
+SUBJECT: Commercial License Inquiry - STELLARIS QED ENGINE
+
+Please include:
+- Your organization name
+- Intended use case  
+- Expected scale of deployment
+
+Contact us for custom commercial licensing terms."""
+    
     with open('LICENSE', 'w') as f:
-        f.write(dual_notice)
+        f.write(main_license)
+    
+    with open('ACADEMIC_LICENSE', 'w') as f:
+        f.write(academic_license)
         
-    print("✅ Dual license files created for Tony Eugene Ford")
-    print("📄 LICENSE-APACHE (Apache 2.0)")
-    print("📄 LICENSE-MIT (MIT)") 
-    print("📄 LICENSE (Dual license notice)")
+    with open('COMMERCIAL_LICENSE', 'w') as f:
+        f.write(commercial_placeholder)
+    
+    print("✅ Dual license setup complete!")
+    print("📄 LICENSE - Main dual license explanation")
+    print("📄 ACADEMIC_LICENSE - Free for non-commercial use") 
+    print("📄 COMMERCIAL_LICENSE - Contact for commercial terms")
 
 if __name__ == "__main__":
-    create_license_files()
+    create_dual_license()
