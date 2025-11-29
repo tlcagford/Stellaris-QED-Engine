@@ -1,20 +1,36 @@
-STELLARIS QED ENGINE
-Copyright (c) 2024 Tony Eugene Ford (tlcagford@gmail.com)
+# DUAL LICENSE - STELLARIS QED ENGINE
+Copyright (c) 2025 Tony Eugene Ford (tlcagford@gmail.com)
 
-This project is dual-licensed under both:
+This project is available under two distinct licenses:
 
-1. Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-2. MIT License (https://opensource.org/licenses/MIT)
+## OPTION 1: COMMERCIAL LICENSE
+For commercial, enterprise, or for-profit use.
 
-You may choose to use, modify, and distribute this software under either license.
+Required for:
+- Commercial applications
+- Enterprise use
+- For-profit integration
+- Proprietary derivatives
 
-The Apache License provides additional patent protection and explicit 
-contributor license agreements, while the MIT License offers simplicity.
+Contact: tlcagford@gmail.com for commercial licensing terms.
 
-For commercial applications, you may prefer the Apache 2.0 license for its
-explicit patent protections. For academic or personal use, the MIT license
-offers maximum flexibility.
+## OPTION 2: OPEN ACADEMIC & PERSONAL LICENSE  
+For academic research, personal projects, and non-commercial use.
+
+Permissions:
+- ✅ Academic research and publications
+- ✅ Personal projects and experimentation
+- ✅ Non-commercial educational use
+- ✅ Open source derivatives (must remain open)
+
+Restrictions:
+- ❌ No commercial use without commercial license
+- ❌ No proprietary derivatives without commercial license
+
+## SUMMARY:
+- Academic/Personal: FREE (with attribution)
+- Commercial: Requires paid license
 
 See individual license files for complete terms:
-- LICENSE-APACHE (Apache 2.0)
-- LICENSE-MIT (MIT)
+- COMMERCIAL_LICENSE (Contact author)
+- ACADEMIC_LICENSE (Free for non-commercial use)
