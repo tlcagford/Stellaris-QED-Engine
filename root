@@ -1,0 +1,10 @@
+# 1. Create all license files
+python scripts/setup_licensing.py
+
+# 2. Update README with license badges
+# Add the badge section to your README.md
+
+# 3. Commit the changes
+git add LICENSE* README.md pyproject.toml setup.py CITATION.cff
+git commit -m "feat: Add dual license (Apache 2.0 AND MIT) for Tony Eugene Ford"
+git push origin main
