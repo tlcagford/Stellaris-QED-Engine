@@ -1,4 +1,11 @@
+# STELLARIS QED ENGINE
 
+**Author**: Tony Eugene Ford  
+**Contact**: tlcagford@gmail.com  
+**License**: Dual Licensed under Apache 2.0 AND MIT - choose either
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE-APACHE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
 )](LICENSE)
