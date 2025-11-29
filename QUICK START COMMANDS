@@ -1,0 +1,8 @@
+# Make executable
+chmod +x run_closed_loop_simulation.py
+
+# Run the closed-loop simulation
+python run_closed_loop_simulation.py
+
+# Or run with specific parameters
+python run_closed_loop_simulation.py --grid_size 128 --duration 200 --field_strength 1e15
