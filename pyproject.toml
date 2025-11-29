@@ -1,0 +1,12 @@
+[project]
+name = "stellaris-qed-engine"
+version = "0.1.0"
+description = "Quantum Vacuum Engineering with Dark Photon Conversion"
+authors = [
+    {name = "Tony Eugene Ford", email = "tlcagford@gmail.com"},
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "License :: OSI Approved :: MIT License",
+]
