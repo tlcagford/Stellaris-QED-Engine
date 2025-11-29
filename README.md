@@ -1,16 +1,10 @@
-![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)r
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE-APACHE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
 )](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#)
-[![Stars](https://img.shields.io/github/stars/tlcagford/Primordial-Photon-Dark-Photon-Entanglement.svg)](https://github.com/tlcagford/Primordial-Photon-Dark-Photon-Entanglement/stargazers)
-[![Issues](https://img.shields.io/github/issues/tlcagford/Primordial-Photon-Dark-Photon-Entanglement.svg)](https://github.com/tlcagford/Primordial-Photon-Dark-Photon-Entanglement/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/tlcagford/Primordial-Photon-Dark-Photon-Entanglement.svg)](https://github.com/tlcagford/Primordial-Photon-Dark-Photon-Entanglement/commits)
-[![Repo Size](https://img.shields.io/github/repo-size/tlcagford/Primordial-Photon-Dark-Photon-Entanglement.svg)](#)
+[![License: Dual Commercial/Academic](https://img.shields.io/badge/License-Dual_Commercial%2FAcademic-blue.svg)](LICENSE)
 
-[updated_readme.md](https://github.com/user-attachments/files/23573346/updated_readme.md)
 # Stellaris QED Engine
 
 
