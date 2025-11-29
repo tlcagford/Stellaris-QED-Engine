@@ -33,21 +33,6 @@ Chemical (10²) │ Ion (10³) │ Nuclear (10³) │ Advanced Electric (10⁴) 
 text
 
 
-## 🎯 Development Roadmap
-
-```mermaid
-graph LR
-    A[TRL 1-2<br>Physics Validation] --> B[TRL 3-4<br>Lab Detection]
-    B --> C[TRL 5-6<br>Micro-thrust Demo] 
-    C --> D[TRL 7-8<br>Space Prototype]
-    D --> E[TRL 9<br>Mission Ready]
-    
-    style A fill:#e1f5fe
-    style B fill:#bbdefb
-    style C fill:#90caf9
-    style D fill:#64b5f6
-    style E fill:#42a5f5
-
 ⚡ Power Requirements Comparison
 System	Typical Power	Thrust Range	Applications
 Chemical	N/A (stored energy)	10⁵-10⁷ N	Launch, maneuvers
@@ -56,6 +41,7 @@ Hall Thruster	1-100 kW	0.1-5 N	Orbit transfer, deep space
 Stellaris QED	Theoretical	Theoretical	All missions (projected)
 
 Note: Stellaris QED power requirements depend on quantum vacuum conversion efficiency
+
 🔬 Scientific Basis
 
     ✅ Quantum Electrodynamics: Euler-Heisenberg nonlinear vacuum
@@ -142,7 +128,7 @@ bibtex
 @software{StellarisQED2024,
   author = {Ford, Tony Eugene},
   title = {Stellaris QED Engine: Quantum Vacuum Engineering Platform},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/tlcagford/Stellaris-QED-Engine}
 }
