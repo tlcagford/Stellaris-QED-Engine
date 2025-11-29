@@ -1,0 +1,33 @@
+Week 1: Chamber Assembly
+- Mount spherical octagon chamber on vibration isolation table
+- Install 8 CF flanges for optical/electrical access
+- Leak check with helium mass spectrometer (<1×10⁻⁹ mbar·L/s)
+
+Week 2-3: Magnetic System
+- Install superconducting magnet with liquid helium fill
+- Calibrate field homogeneity using Hall probes
+- Implement active field stabilization
+
+Week 4: Cryogenic Integration  
+- Mount cryostat for low-temperature operation (4K)
+- Install thermal radiation shields
+- Test cooldown cycle stability
+
+Week 5-6: Photon Detection
+- Mount PMT arrays on 4 orthogonal ports
+- Calibrate with NIST-traceable photon sources
+- Install interference filters (780±5nm)
+
+Week 7-8: RF & Quantum Sensing
+- Connect RF spectrum analyzer via coaxial feedthroughs
+- Install NV-center diamond sensors for magnetic field mapping
+- Calibrate timing synchronization (<100ps jitter)
+Week 9-10: Laser & Modulation
+- Install Toptica laser with optical isolation
+- Add electro-optic modulator for field pulsing
+- Implement frequency doubling for 390nm UV capability
+
+Week 11-12: Data Acquisition Integration
+- Connect all instruments via PXIe backplane
+- Develop LabVIEW/Python control software
+- Test full system synchronization
