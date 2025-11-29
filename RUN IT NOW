@@ -1,0 +1,2 @@
+cd stellaris-qed-engine
+python run_closed_loop_simulation.py
