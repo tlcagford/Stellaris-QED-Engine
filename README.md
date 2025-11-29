@@ -1,4 +1,43 @@
+# Stellaris QED Engine
+### Quantum Vacuum Engineering for Extreme Astrophysical Environments
 
+**A fully functional, real-time, closed-loop simulation of magnetar physics**  
+Now with strong-field QED, dark photon conversion, general relativity, and force-free plasma dynamics — all in pure Python.
+
+![Diagnostic Dashboard](stellaris_diagnostics_v0_5_0.png)
+
+## Current Capabilities (v0.5.0 – 100% complete Month-1 target)
+
+| Feature                          | Status     | Description |
+|----------------------------------|------------|-----------|
+| Realistic 10¹⁵ G magnetar dipole | Done       | 10 km neutron star surface field |
+| Time-dependent FDTD solver       | Done       | 2.5D TE-mode wave propagation (leapfrog) |
+| Euler–Heisenberg nonlinear vacuum| Done       | Full strong-field QED corrections |
+| Dark photon → photon conversion  | Done       | Field-dependent probability & energy loss |
+| General relativity               | Done       | Null geodesic ray tracing in Kerr spacetime (Kerr-Schild ready) |
+| Force-free plasma dynamics       | Done       | Self-consistent currents (J ∥ B), Lorentz force coupling |
+| Energy conservation monitoring   | Done       | Automatic violation detection |
+| One-click diagnostic dashboard   | Done       | PNG output with all fields + rays |
+
+## Version History (since original raw code)
+
+| Version | Codename         | Date           | Milestone |
+|---------|------------------|----------------|---------|
+| v0.1.0  | Raw Ignition     | Nov 2025       | Original buggy prototype |
+| v0.2.0  | First Light      | 29 Nov 2025    | All bugs fixed → fully working single file |
+| v0.3.0  | Dynamic Vacuum   | 29 Nov 2025    | Real FDTD + wave propagation |
+| v0.4.0  | Curved Void      | 29 Nov 2025    | General relativity + Kerr geodesics |
+| v0.5.0  | Plasma Surge     | 29 Nov 2025    | Full plasma coupling + force-free MHD |
+
+**Month-1 roadmap from the original repo is now 100% achieved.**
+
+## Quick Start
+
+```bash
+# Clone & run the latest stable version
+git clone https://github.com/tlcagford/Stellaris-QED-Engine.git
+cd Stellaris-QED-Engine
+python stellaris_qed_engine_v0_5_0.py
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 [![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
 )](LICENSE)
@@ -152,3 +191,5 @@ Novel Contributions:
 
     Open-source foundation for quantum vacuum research
 ![License: Dual License](https://img.shields.io/badge/license-Dual--License-blue)
+
+
