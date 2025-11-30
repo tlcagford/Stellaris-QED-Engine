@@ -460,7 +460,8 @@ def main():
     validator = QEDTheoryValidator()
     
     # Create mock engine (replace with your actual QED engine)
-    qed_engine = MockQEDEngine()
+    from stellaris_qed_engine import YourActualEngine
+qed_engine = YourActualEngine()
     
     # Run complete validation
     results = validator.validate_all(qed_engine)
