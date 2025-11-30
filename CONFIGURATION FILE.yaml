@@ -1,0 +1,24 @@
+# config/validation_config.yaml
+validation_parameters:
+  mathematical:
+    probability_tolerance: 1e-10
+    linearity_threshold: 0.05
+    unitarity_epsilon: 1e-12
+  
+  performance:
+    success_threshold: 0.7
+    improvement_threshold: 0.15
+    significance_level: 0.05
+  
+  domains:
+    biological:
+      test_proteins: ["1LYZ", "2MYR", "1INS"]
+      accuracy_threshold: 0.8
+    
+    economic:
+      test_periods: ["2000-2001", "2007-2008", "2020-2021"] 
+      prediction_horizon: 30
+    
+    ecological:
+      test_systems: ["lynx_hare", "salmon_bear", "plankton_fish"]
+      time_steps: 1000
