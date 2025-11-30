@@ -1,4 +1,22 @@
-_____ _______ _      _       _____ ____  ______ _____ 
+
+from dataclasses import dataclass
+from typing import Literal, Optional, Dict, Any
+import numpy as np
+
+@dataclass
+class EngineConfig:
+    grid_size: int = 128
+    steps: int = 1000
+    precision: Literal['float32','float64'] = 'float64'
+    dt: float = 1e-6
+    seed: Optional[int] = None
+    device: Literal['cpu','gpu'] = 'cpu'
+    dry_run: bool = True  # default safe
+
+def make_rng(seed: Optional[int]):
+    import numpy as _np
+    return _np.random.default_rng(seed)
+        _____ _______ _      _       _____ ____  ______ _____ 
         / ____|__   __| |    | |     |  __ \___ \|  ____|  __ \
        | (___    | |  | |    | |     | |__) |__) | |__  | |__) |
         \___ \   | |  | |    | |     |  _  /  _ /|  __| |  _  / 
