@@ -1,0 +1,20 @@
+qed_validation/
+├── core/
+│   ├── __init__.py
+│   ├── axioms.py          # Mathematical consistency tests
+│   ├── domains.py         # Cross-domain test cases
+│   └── metrics.py         # Performance evaluation
+├── data/
+│   ├── biological/        # Protein folding datasets
+│   ├── economic/          # Market data
+│   ├── ecological/        # Population data
+│   └── social/           # Network data
+├── experiments/
+│   ├── protein_folding.py
+│   ├── market_prediction.py
+│   ├── ecosystem_dynamics.py
+│   └── social_networks.py
+├── results/
+│   ├── visualizations.py
+│   └── statistical_analysis.py
+└── requirements.txt
