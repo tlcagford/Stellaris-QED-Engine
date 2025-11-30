@@ -423,17 +423,24 @@ class QEDTheoryValidator:
         return 1 - (np.mean(errors) if errors else 0.0)
 
 # Mock QED Engine for testing
-class MockQEDEngine:
-    """Mock implementation for testing the validator"""
+class class YourStellarisQEDEngine:
+    def simulate(self, config):
+        # Your actual simulation code here
+        return your_results
     
-    def simulate(self, config: Dict[str, Any]) -> Dict[str, Any]:
-        return {
-            'status': 'success',
-            'domain': config.get('domain', 'unknown'),
-            'system': config.get('system', 'unknown'),
-            'final_state': {'result': 0.95},
-            'probability_conserved': True
-        }
+    def predict(self, initial_state):
+        # Your actual prediction code here  
+        return your_predictions
+    
+    def generate_novel_prediction(self, domain):
+        # Your novel prediction code here
+        return your_prediction
+
+# Then in main():
+def main():
+    validator = QEDTheoryValidator()
+    your_engine = YourStellarisQEDEngine()  # Use your real engine
+    results = validator.validate_all(your_engine)
     
     def predict(self, initial_state: Dict[str, float]) -> Dict[str, float]:
         # Return normalized probabilities as prediction
