@@ -1,0 +1,22 @@
+class StellarisEngine:
+    def __init__(self, cfg: EngineConfig):
+        self.cfg = cfg
+        self.rng = make_rng(cfg.seed)
+        self.dtype = getattr(np, cfg.precision)
+        self._allocate_fields()
+
+    def _allocate_fields(self):
+        self.fields = np.zeros((self.cfg.grid_size,)*3, dtype=self.dtype)
+        # more allocation...
+
+    def step(self) -> Dict[str, Any]:
+        # single physical step compute only
+        # return diagnostics dict but do NOT write to disk
+        pass
+
+    def run(self):
+        diagnostics = []
+        for i in range(self.cfg.steps):
+            diag = self.step()
+            diagnostics.append(diag)
+        return diagnostics
